@@ -1,0 +1,101 @@
+.phone{
+    width:95px;
+    height: 196px;
+    background: url(../images/iphone-optimised.png) no-repeat; 
+    background-size: 100%;
+    overflow: hidden;
+    top: 375px;
+    left: 300px;
+    z-index: 4;
+}
+.tablet{
+    width: 246px;
+    height: 400px;
+    background: url(../images/ipad-optimised.png) no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    left: 120px;
+    top: 230px;
+    z-index: 3;
+
+}
+.laptop{
+    width: 477px;
+    height: 307px;
+    background: url(../images/laptop-screen-optimised.png) no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    top: 264px;
+    left: 560px;
+    z-index: 2; 
+}
+.macbook{
+    width: 566px;
+    height: 538px;
+    background: url(../images/large-screen-optimised.png) no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    top: 0px;
+    left: 220px;
+}
+/* size edit */
+.phone .main-web{     
+    position: relative; 
+    top: 32px;
+    left: 10px; 
+}
+.tablet .main-web{     
+    position: relative; 
+    top: 32px;
+    left: 33px; 
+}
+.laptop .main-web{     
+    position: relative; 
+    top: 26px;
+    left: 60px;
+}
+.macbook .main-web{     
+    position: relative; 
+    top: 38px;
+    left: 26px;
+}
+/* iframe size */
+.phone .main-web iframe{
+    width: 320px;
+    height:480px;
+    overflow-y: hidden;
+    transform:  scale(0.228);
+    transform-origin: top left; 
+}
+.tablet .main-web iframe{
+    width: 768px;
+    height: 1024px;
+    overflow-y: hidden;
+    transform:  scale(0.228);
+    transform-origin: top left; 
+}
+.laptop .main-web iframe{
+    width: 1280px;
+    height: 802px;
+    overflow-y: hidden;
+    transform:  scale(0.278);
+    transform-origin: top left; 
+}
+.macbook .main-web iframe{
+    width: 1600px;
+    height: 992px;
+    overflow-y: hidden;
+    transform:  scale(0.3191);
+    transform-origin: top left; 
+}
+.top-section{
+    width: 100vw;
+    height: 100vh;
+    position: relative; 
+}
+.top-section >div{
+    position: absolute;
+}
+.container-fulid{
+    z-index: 10;
+}
