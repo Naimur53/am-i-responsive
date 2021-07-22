@@ -16,7 +16,7 @@ cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	
+
 	 
 }
 
@@ -31,9 +31,39 @@ cols    1     2      3
 px      68    160    252    */
 
 @media only screen and (max-width: 767px) {
-	
-	 
-	
+	.top-section{
+		display: flex;
+		position: static;
+		flex-direction: column;
+		flex-wrap: wrap;
+		height: inherit;
+		justify-content: center;  
+		align-items: center;
+	} 
+	.top-section >div {
+		position: static; 
+	} 
+	.laptop{
+		width: 300px;
+	}
+	.laptop .main-web iframe {
+		transform: scale(0.18);
+	}
+	.laptop .main-web {
+		position: relative;
+		top: 16px;
+		left: 38px;
+	}
+	.macbook{
+		width: 300px;
+	}
+	.macbook .main-web { 
+		top: 19px;
+		left: 12px;
+	}
+	.macbook .main-web iframe {  
+		transform: scale(0.172); 
+	}
 }
 
 
@@ -46,8 +76,8 @@ px      68    160    252    */
 cols    1     2      3      4      5
 px      68    160    252    344    436    */
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-	
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+}
  
 
 }
